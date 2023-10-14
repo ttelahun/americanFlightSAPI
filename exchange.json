@@ -1,0 +1,10 @@
+{
+  "main": "american_flight_sapi.raml",
+  "name": "american-flight-sapi",
+  "groupId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
+  "assetId": "american-flight-sapi",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}

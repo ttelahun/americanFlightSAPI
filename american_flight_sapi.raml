@@ -11,6 +11,7 @@ traits:
         required: false
 
 /flight:
+  
   get:
     queryParameters:
       destination:
@@ -33,11 +34,7 @@ traits:
               
                 
   post:
-    headers:
-      client_id:
-        required: false
-      client_secret:
-        required: false
+    
     body:
       application/json:
           type: AmericanFlight

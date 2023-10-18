@@ -2,13 +2,7 @@
 title: american_flight_sapi
 types:
   AmericanFlight: !include /dataType/americanFlightDataType.raml
-traits:
-  client_Id_enforcement:
-    headers:
-      client_id:
-        required: false
-      client_secret:
-        required: false
+
 
 /flight:
   is: [client_Id_enforcement]
@@ -20,7 +14,7 @@ traits:
           - LAX
           - SFO
           - CLE
-          
+
     responses: 
       200:
         body:

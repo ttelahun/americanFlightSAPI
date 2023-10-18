@@ -2,6 +2,13 @@
 title: american_flight_sapi
 /flight:
   get:
+    queryParameters:
+      destination:
+        required: false
+        enum:
+          - LAX
+          - SFO
+          - CLE
     
   post:
   /{ID}:

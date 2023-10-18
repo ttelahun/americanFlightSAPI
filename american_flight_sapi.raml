@@ -3,7 +3,7 @@ title: american_flight_sapi
 types:
   AmericanFlight: !include /dataType/americanFlightDataType.raml
 uses:
-  security:
+  security: /Library/AFlibrary.raml 
 /flight:
   is: [client_Id_enforcement]
   get:

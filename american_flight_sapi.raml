@@ -2,6 +2,8 @@
 title: american_flight_sapi
 types:
   AmericanFlight: !include /dataType/americanFlightDataType.raml
+uses:
+  security:
 /flight:
   is: [client_Id_enforcement]
   get:

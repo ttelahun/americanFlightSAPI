@@ -11,7 +11,7 @@ traits:
         required: false
 
 /flight:
-  is
+  is: [client_Id_enforcement]
   get:
     queryParameters:
       destination:
@@ -20,11 +20,7 @@ traits:
           - LAX
           - SFO
           - CLE
-    headers:
-      client_id:
-        required: false
-      client_secrect: 
-        required: false
+          
     responses: 
       200:
         body:

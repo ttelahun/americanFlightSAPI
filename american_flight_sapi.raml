@@ -4,6 +4,7 @@ types:
   AmericanFlight: !include /dataType/americanFlightDataType.raml
 uses:
   security: /Library/AFlibrary.raml 
+  
 /flight:
   is: [security.client_Id_enforcement]
   get:

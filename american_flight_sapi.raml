@@ -4,7 +4,11 @@ types:
   AmericanFlight: !include /dataType/americanFlightDataType.raml
 traits:
   client_Id_enforcement:
-    
+    headers:
+      client_id:
+        required: false
+      client_secret:
+        required: false
 
 /flight:
   get:

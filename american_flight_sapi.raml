@@ -30,7 +30,14 @@ types:
       application/json:
           type: AmericanFlight
           example: !include /Examples/americanFlightPostIDexample.raml
-    response: 
+    responses:
+      201:
+        body:
+          application/json:
+            example: 
+            
+              
+        
 
   /{ID}:
     get:

@@ -46,6 +46,7 @@ uses:
         200:
           body:
             application/json:
+              type: AmericanFlight
               example: !include /Examples/americanFlightIDexample.raml
                 
               
@@ -54,7 +55,6 @@ uses:
         200:
           body:
             application/json:
-              type: Americ
               example:
                 message: flight deleted successfully 
     put:

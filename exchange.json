@@ -1,13 +1,20 @@
 {
-  "main": "american_flight_sapi.raml",
-  "name": "american-flight-sapi",
-  "groupId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
-  "assetId": "american-flight-sapi",
+  "dependencies": [
+    {
+      "version": "1.0.0",
+      "assetId": "fragmenttwst",
+      "groupId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
+      "provided": false
+    }
+  ],
   "version": "1.0.1",
-  "classifier": "raml",
-  "tags": [],
-  "descriptorVersion": "1.0.0",
-  "organizationId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
+  "originalFormatVersion": "1.0",
   "apiVersion": "v1",
-  "originalFormatVersion": "1.0"
+  "descriptorVersion": "1.0.0",
+  "classifier": "raml",
+  "main": "american_flight_sapi.raml",
+  "assetId": "american-flight-sapi",
+  "groupId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
+  "organizationId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
+  "name": "american-flight-sapi"
 }

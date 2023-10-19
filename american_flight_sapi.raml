@@ -63,7 +63,11 @@ uses:
           type: AmericanFlight
           example: !include /Examples/americanFlightPostIDexample.raml
       responses:
-        
+        200:
+          body:
+            application/json:
+              example:
+                me
             
     patch:
       

@@ -1,12 +1,4 @@
 {
-  "dependencies": [
-    {
-      "version": "1.0.0",
-      "assetId": "fragmenttwst",
-      "groupId": "e14a7290-9d52-4d19-ab60-01fd406793e9",
-      "provided": false
-    }
-  ],
   "version": "1.0.1",
   "originalFormatVersion": "1.0",
   "apiVersion": "v1",
